@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    color: white;
+}
+
+.contador {
+    display: flex;
+    gap: 20px;
+}
+
+.contador div {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 100px;
+}
+
+span {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
