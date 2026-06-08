@@ -131,7 +131,7 @@ body{
 
     .img{
         width: 40vw;
-        height: auto;
+        height: 20vh;
         border-radius: 10px;
     }
 }
