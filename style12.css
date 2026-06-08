@@ -100,3 +100,38 @@ body{
     transform: rotate(-45deg) scale(1.12);
   }
 }
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #menu{
+        width: 95vw;
+    }
+
+    .heart{
+        width: 45vw;
+        height: 45vw;
+        margin-top: 10vh;
+    }
+
+    .heart a{
+        font-size: 4vw;
+    }
+
+    #faixa-fotos{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .img{
+        width: 40vw;
+        height: auto;
+        border-radius: 10px;
+    }
+}

@@ -32,3 +32,33 @@ span {
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .contador{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 90vw;
+    }
+
+    .contador div{
+        min-width: 120px;
+        padding: 15px;
+    }
+
+    span{
+        font-size: 2rem;
+    }
+
+    p{
+        margin: 8px 0 0;
+        font-size: 0.9rem;
+    }
+}
