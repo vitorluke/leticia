@@ -1,5 +1,5 @@
 // Data de destino
-const dataAlvo = new Date("2024-11-19T23:59:59");
+const dataAlvo = new Date("2023-11-19T23:59:59");
 
 function atualizarContador() {
     const agora = new Date();
